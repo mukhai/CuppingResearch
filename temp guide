@@ -1,0 +1,59 @@
+1.Install Plug-in for GitLab:
+https://marketplace.visualstudio.com/items?itemName=MysticBoy.GitLabExtensionforVisualStudio
+
+2.Open Visual Studio
+
+3.Team > Manage Connection,
+
+4.Login with GitLab account
+
+5.Select cupping and clone it
+
+6.Double click the solutions.
+
+7.If any changes were made, select CHANGES, type what have you done in commit, and click COMMIT all.
+
+8.inform faiz.
+
+
+=====================================================================================================================================
+New Project > C# > Windows Form Application
+
+C:\Users\%USERNAME%\Source\Repos\testing-connection
+
+
+
+ssh-keygen -t rsa -C "faizburn96@gmail.com" -b 4096
+
+
+
+
+Git global setup
+
+git config --global user.name "Faiz Abu Bakar"
+git config --global user.email "faizburn96@gmail.com"
+
+Create a new repository
+
+git clone https://gitlab.com/paehburn/cupping.git
+cd empty
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/paehburn/cupping.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+
+cd existing_repo
+git remote add origin https://gitlab.com/paehburn/cupping.git
+git push -u origin --all
+git push -u origin --tags

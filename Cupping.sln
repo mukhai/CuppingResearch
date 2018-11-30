@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cupping", "Cupping", "{9B749A0E-4E6C-4B81-BF50-BBA98AB53021}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\backpain.jpg = ..\..\..\Desktop\backpain.jpg
+		..\..\..\Desktop\backpainMatrices.txt = ..\..\..\Desktop\backpainMatrices.txt
+		..\..\..\Downloads\Human_body_schemes.jpg = ..\..\..\Downloads\Human_body_schemes.jpg
+		..\..\..\Desktop\matricesBackground.jpg = ..\..\..\Desktop\matricesBackground.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cupping", "WindowsFormsApplication1\Cupping.csproj", "{0610BAC6-411A-4CA1-986D-99959D97B6B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|ARM.Build.0 = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|x64.Build.0 = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Debug|x86.Build.0 = Debug|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|ARM.Build.0 = Release|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|x64.ActiveCfg = Release|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|x64.Build.0 = Release|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|x86.ActiveCfg = Release|Any CPU
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0610BAC6-411A-4CA1-986D-99959D97B6B1} = {9B749A0E-4E6C-4B81-BF50-BBA98AB53021}
+	EndGlobalSection
+EndGlobal
